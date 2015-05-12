@@ -1,0 +1,168 @@
+﻿body,html {
+    margin:0;
+    padding:0;
+    font-family:'Open Sans',sans-serif;
+}
+
+.badge,.list-group-item.active > .badge {
+  color: #ffffff;
+  background-color: #cc3333;
+}
+.controls {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    height: 32px;
+    margin-left: 17px;
+    margin-top: 16px;
+    outline: none;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+      }
+      .controls:focus {
+        border-color: #4d90fe;
+      }
+#default-page {
+    background-color:#e9e9e9;
+}
+#userPanel {
+    font-size:20px;
+    background-color:#3990d1;
+    color:#fff;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    text-align:center;
+    padding:7px;
+}
+#logo {
+    height:140px;
+    width:400px;
+    background-color:#fff;
+    border-radius:25px;
+    border-bottom:4px solid #5fd951;
+    margin:30px auto;
+    padding-left:20px;
+}
+#login {
+    margin :0 auto;
+    height:350px;
+    width:400px;
+    background-color:#fff;
+    border-radius:25px;
+}
+#loginForm {
+    margin-top:30px;
+}
+#gonderBtn {
+    margin-top:30px;
+    width:235px;
+}
+
+
+#simple-map,#geo-map ,#save-location-map,#get-elevation,#get-distance-map{
+    border:2px solid #000;
+    height:527px;
+    width:990px;
+    position:absolute;
+    right:60px;
+}
+#main-logo {
+    margin-top:-7px;
+}
+#user-box {
+    border: 1px solid #000;
+    width:260px;
+    height:232px;
+    position:absolute;
+    left:30px;
+}
+#user-img {
+    background-color:#c2cfe2;
+    height:100px;
+    width:100px;
+    border-radius:100px;
+    margin:10px auto;
+}
+    #user-img span {
+        padding-top:17px;
+        padding-left:20px;
+        font-size:60px;
+        color:#fff;
+    }
+#user-data {
+    
+    height:93px;
+    width:100%;
+}
+#menu {
+    border: 1px solid #000;
+    width:260px;
+    height:260px;
+    position:absolute;
+    left:30px;
+    top:340px;
+}
+#user-header {
+    background-color:#84c3f2;
+    color:#fff;
+    font-size:18px;
+    text-align:center;
+}
+#menu-header {
+    background-color:#5fd951;
+    color:#fff;
+    font-size:18px;
+    text-align:center;
+}
+#social-box {
+    background-color:#b17171;
+    height:240px;
+    width:10px;
+    position:absolute;
+    right:0;
+    top:200px;
+}
+#facebook {
+    height:80px;
+    background-color:#4862a3;
+    color:#fff;
+    text-align:center;
+    padding-top:20px;
+    cursor:pointer;
+}
+    
+#twitter {
+    height:80px;
+    background-color:#55acee;
+    color:#fff;
+    text-align:center;
+    padding-top:20px;
+    cursor:pointer;
+}
+#google-plus {
+    height:80px;
+    background-color:#cc3333;
+    color:#fff;
+    text-align:center;
+    padding-top:20px;
+    cursor:pointer;
+}
+#facebook div,#twitter div,#google-plus div {
+        display:none;
+    }
+footer {
+    background-color:#e9e9e9;
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:40px;
+    padding:10px;
+    border-top:1px solid #808080;
+}
